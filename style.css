@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://www.w3schools.com/w3images/forestbridge.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+/* Container Styling */
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffcc00;
+}
+
+/* Form Styling */
+.form-container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+}
+
+input:focus {
+    border-color: #ffcc00;
+}
+
+/* Button Styling */
+button {
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 15px 32px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+/* Result Section Styling */
+.result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.result p {
+    color: #fff;
+    margin: 5px 0;
+}
+
+#status {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#status.normal {
+    color: #4CAF50;
+}
+
+#status.overweight {
+    color: #FF9800;
+}
+
+#status.obese {
+    color: #F44336;
+}
+
+#status.underweight {
+    color: #2196F3;
+}
